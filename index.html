@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#091114">
-  <title>Sunday Super League | Season 2</title>
+  <title>PSG Sunday Super League | Season 2</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -36,8 +36,8 @@
       <section class="view" id="view-stats"><div class="page-intro"><p class="eyebrow">INTELLIGENCE / 01</p><h1>Statistics</h1><p>Form, scoring and defensive benchmarks from the league.</p></div><div class="stats-large" id="statsLarge"></div></section>
       <section class="view" id="view-teams"><div class="page-intro"><p class="eyebrow">ROSTER / 01</p><h1>Teams & players</h1><p>The eleven contenders of Season 02.</p></div><div class="team-grid" id="teamGrid"></div></section>
       <section class="view" id="view-inter-face"><div class="page-intro inter-intro"><p class="eyebrow">PLAYER SPOTLIGHT / 07</p><h1>Inter <em>Face</em></h1><p>THALA × Inter Milan. The complete fixture trail.</p></div><div class="inter-layout"><article class="inter-identity"><div class="large-logo" id="interLogo">I</div><p class="eyebrow">PLAYER / 07</p><h2>THALA</h2><p>Inter Milan</p><div id="interStats" class="profile-stats"></div></article><article class="panel inter-fixtures"><div class="panel-top"><p class="eyebrow">INTER MILAN FIXTURES</p><span>20 MATCHES</span></div><div id="interFixtures"></div></article></div></section>
-      <section class="view" id="view-champions"><div class="champion-view" id="championView"><p class="eyebrow">THE FINAL WHISTLE</p><h1>Season 02<br><em>Champion</em></h1><div class="trophy">🏆</div><p>Complete all 110 fixtures to crown the champion.</p></div></section>
-    </main><footer><span>© 2024 SUNDAY SUPER LEAGUE / SEASON 02</span><span>BUILT FOR THE SUNDAY GAME</span></footer>
+      <section class="view" id="view-champions"><div class="champion-view" id="championView"><p class="eyebrow">THE FINAL WHISTLE</p><h1>Season 02<br><em>Champion</em></h1><div class="trophy">🏆</div><p>Complete all 90 fixtures to crown the champion.</p></div></section>
+    </main><footer><span>© 2026 PSG  SUNDAY SUPER LEAGUE / SEASON 02</span><span>BUILT FOR THE SUNDAY GAME</span></footer>
   </div>
   <dialog id="adminDialog"><form method="dialog" id="adminForm"><button class="dialog-close" value="cancel" aria-label="Close">×</button><p class="eyebrow">RESULTS DESK</p><h2 id="adminTitle">Add match result</h2><div id="pinGate"><p>Admin access required. Enter your PIN to unlock the results desk.</p><label>PIN<input id="pinInput" type="password" inputmode="numeric" autocomplete="off" autofocus></label><button class="button button-primary" type="button" id="unlockAdmin">Unlock desk</button><small id="pinError"></small></div><div id="resultFields" class="hidden"><input type="hidden" id="editingMatch"><label>Fixture<select id="matchSelect"></select></label><div class="form-grid"><label>Home score<input id="homeScore" type="number" min="0" max="99" required></label><label>Away score<input id="awayScore" type="number" min="0" max="99" required></label></div><label>Date<input id="matchDate" type="date"></label><div class="form-actions"><button class="button button-primary" type="submit">Save result</button><button class="button button-danger" type="button" id="deleteResult">Delete result</button></div><button class="reset-link" type="button" id="resetTournament">Reset all tournament data</button></div></form></dialog>
   <script src="script.js"></script>
