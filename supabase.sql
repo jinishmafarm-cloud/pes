@@ -4,6 +4,29 @@ create table if not exists public.link_views (
   viewed_at timestamptz not null default now()
 );
 
+create table if not exists public.match_results (
+  match_id text primary key,
+  home_score integer not null check (home_score >= 0),
+  away_score integer not null check (away_score >= 0),
+  match_date date,
+  updated_at timestamptz not null default now()
+);
+
+alter table public.match_results enable row level security;
+
+drop policy if exists "Anyone can read match results" on public.match_results;
+create policy "Anyone can read match results"
+  on public.match_results for select
+  to anon
+  using (true);
+
+drop policy if exists "Admin can write match results" on public.match_results;
+create policy "Admin can write match results"
+  on public.match_results for all
+  to anon
+  using (true)
+  with check (true);
+
 alter table public.link_views enable row level security;
 
 drop policy if exists "Anyone can record a player link view" on public.link_views;
