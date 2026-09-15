@@ -7,7 +7,7 @@ const teams = [
   { id: 'bvb', player: 'Prince', name: 'BVB', short: 'BVB', logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/124.png' },
   { id: 'inter', player: 'THALA', name: 'Inter Milan', short: 'INT', logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/110.png' },
   { id: 'manutd', player: 'Jinish', name: 'Manchester United', short: 'MUN', logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/360.png' },
-  { id: 'norway', player: 'Anil', name: 'Norway', short: 'NOR', logo: 'https://share.google/lNWqwWvbXn8uEKC5M' }
+  { id: 'norway', player: 'Anil', name: 'Norway', short: 'NOR', logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/464.png' }
 ];
 const storeKey = 'ssl-season-2-results';
 const state = { results: JSON.parse(localStorage.getItem(storeKey) || '{}'), fixtures: [], filter: 'all', round: 'all' };
