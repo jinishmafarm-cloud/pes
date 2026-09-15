@@ -7,8 +7,7 @@ const teams = [
   { id: 'bvb', player: 'Prince', name: 'BVB', short: 'BVB', logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/124.png' },
   { id: 'inter', player: 'THALA', name: 'Inter Milan', short: 'INT', logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/110.png' },
   { id: 'manutd', player: 'Jinish', name: 'Manchester United', short: 'MUN', logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/360.png' },
-  { id: 'brazil', player: 'Alen T', name: 'Brazil', short: 'BRA', logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/205.png' },
-  { id: 'norway', player: 'Anil', name: 'Norway', short: 'NOR', logo: 'https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Norway.svgAPpeQnt7_ItXgwxdohRcOEVcRu_vx2cNHA:1789408294978&udm=2&q=norway+flag&sa=X&ved=2ahUKEwj-7Zyu0e6WAxWuTGwGHVYfHvsQtI8BegQIFBAB&biw=392&bih=744&dpr=2.75#sv=CAMSVxoyKhBlLVlVY1hqWG5ncFpTcnZNMg5ZVWNYalhuZ3BaU3J2TToONTZ6dFQ1TjF4bTVlLU0gBCoXCgFzEhBlLVlVY1hqWG5ncFpTcnZNGAEwAUoECAEQAhgHIJPks_QFSggQAhgBIAIoAQ' }
+  { id: 'norway', player: 'Anil', name: 'Norway', short: 'NOR', logo: 'https://share.google/lNWqwWvbXn8uEKC5M' }
 ];
 const storeKey = 'ssl-season-2-results';
 const state = { results: JSON.parse(localStorage.getItem(storeKey) || '{}'), fixtures: [], filter: 'all', round: 'all' };
