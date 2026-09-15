@@ -33,7 +33,7 @@ drop policy if exists "Anyone can record a player link view" on public.link_view
 create policy "Anyone can record a player link view"
   on public.link_views for insert
   to anon
-  with check (player_id in ('barcelona', 'bayern', 'madrid', 'psg', 'monaco', 'bvb', 'inter', 'manutd', 'brazil', 'argentina', 'norway'));
+  with check (player_id in ('barcelona', 'bayern', 'madrid', 'psg', 'monaco', 'bvb', 'inter', 'manutd', 'brazil', 'norway'));
 
 drop policy if exists "Anyone can read link views" on public.link_views;
 create policy "Anyone can read link views"
