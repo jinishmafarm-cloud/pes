@@ -8,7 +8,6 @@ const teams = [
   { id: 'inter', player: 'THALA', name: 'Inter Milan', short: 'INT', logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/110.png' },
   { id: 'manutd', player: 'Jinish', name: 'Manchester United', short: 'MUN', logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/360.png' },
   { id: 'brazil', player: 'Alen T', name: 'Brazil', short: 'BRA', logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/205.png' },
-  { id: 'argentina', player: 'Jojo', name: 'Argentina', short: 'ARG', logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/202.png' },
   { id: 'norway', player: 'Anil', name: 'Norway', short: 'NOR', logo: 'https://a.espncdn.com/i/teamlogos/soccer/500/206.png' }
 ];
 const storeKey = 'ssl-season-2-results';
